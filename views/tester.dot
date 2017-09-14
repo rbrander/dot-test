@@ -1,0 +1,9 @@
+<div>
+  <h1>{{=it.title}}</h1>
+  <hr />
+  <p>{{=it.subtitle}}</p>
+  {{#def.subtext}}
+  {{? it.url}}
+  <img src="{{=it.url}}" />
+  {{?}}
+</div>
